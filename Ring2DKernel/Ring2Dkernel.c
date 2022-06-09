@@ -1,7 +1,7 @@
 /*****************************************************************************
  * Ring2Dkernel.c
  *
- * Tomislav Jurèeviæ, Luka Tarabariæ, Marko Æaleta
+ * Tomislav Jurcevic, Luka Tarabaric, Marko Caleta
  *****************************************************************************/
 #include <sys\exception.h>
 #include <cdefBF533.h>
@@ -90,7 +90,7 @@ void convolve2D(unsigned char* in, unsigned char* out, int dataSizeX, int dataSi
                 {
                     nn = kernelSizeX - 1 - n;   // indeks stupca okrenutog kernela
 
-                    // indeksi ulaznog signala, korišteni za provjeru granica
+                    // indeksi ulaznog signala, koriÅ¡teni za provjeru granica
                     rowIndex = i + (kCenterY - mm);
                     colIndex = j + (kCenterX - nn);
 
